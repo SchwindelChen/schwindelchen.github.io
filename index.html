@@ -24,8 +24,8 @@
     <script src="content.js"></script>
     <script>
       const languageToggle = document.getElementById("language-toggle");
-      let savedLanguage = "zh";
-      try { savedLanguage = localStorage.getItem("site-language") || "zh"; } catch (error) {}
+      let savedLanguage = "en";
+      try { savedLanguage = localStorage.getItem("site-language") || "en"; } catch (error) {}
       function setLanguage(language) {
         const isEnglish = language === "en";
         document.body.classList.toggle("is-en", isEnglish);
