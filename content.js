@@ -80,6 +80,7 @@ window.siteContent = {
       titleEn: "Critical Realism, Local Knowledge, and Autonomous Knowledge Systems in Economics: An Agent-based Modeling Investigation",
       authorsZh: "冯志轩、陈昭宇",
       authorsEn: "Zhixuan Feng and Zhaoyu Chen",
+      corresponding: true,
       publicationZh: "《政治经济学季刊》2025 年第 2 期。",
       publicationEn: "Political Economy Quarterly, No. 2, 2025 (in Chinese).",
       abstractZh: "本文尝试以相对形式化的方法，探讨经济学自主知识体系相较于其他知识体系的潜在优势。基于批判实在论、社会定位理论与地方性知识视角，本文构建了一个包含多层次行为逻辑的基于主体建模（Agent-based Model, ABM）框架，并借助该模型分析了在不同社会本体论设定下，自主知识体系与普遍性知识体系等在解释及预测经济活动方面的能力差异。研究发现，若经济系统中存在影响主体行为的宏观结构、社会关系或个体间网络化复杂互动中的任一情形，自主知识体系均能展现出更优的解释力与预测力。这一结论为构建经济学自主知识体系提供了具有理论一般性的支撑。",
