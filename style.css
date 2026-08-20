@@ -204,6 +204,10 @@ h3 {
   font-style: italic;
 }
 
+.hero-handle {
+  font-style: normal;
+}
+
 .hero-affiliation {
   margin-bottom: 25px;
   color: var(--dark);

@@ -37,10 +37,12 @@
       }
       languageToggle.addEventListener("click", () => setLanguage(document.body.classList.contains("is-en") ? "zh" : "en"));
       setLanguage(savedLanguage);
-      const theme = new URLSearchParams(window.location.search).get("theme") || "photo-cream";
+      const requestedTheme = new URLSearchParams(window.location.search).get("theme");
+      const privatePreview = window.location.hostname === "" || ["localhost", "127.0.0.1"].includes(window.location.hostname);
+      const theme = privatePreview && requestedTheme === "minimal" ? "minimal" : "photo-cream";
       const themeStyle = document.getElementById("theme-style");
       if (theme === "minimal") { themeStyle.href = "style-minimal.css"; document.body.classList.add("theme-minimal"); } else { themeStyle.href = "style-photo-cream.css"; document.body.classList.add("theme-photo-cream"); }
-      document.querySelectorAll('a[href^="research.html"]').forEach((link) => { const [path, hash] = link.getAttribute("href").split("#"); link.href = `${path}?theme=${theme}${hash ? `#${hash}` : ""}`; });
+      document.querySelectorAll('a[href^="research.html"]').forEach((link) => { const [path, hash] = link.getAttribute("href").split("#"); link.href = `${path}${privatePreview ? `?theme=${theme}` : ""}${hash ? `#${hash}` : ""}`; });
     </script>
   </body>
 </html>
