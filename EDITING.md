@@ -9,7 +9,7 @@
 3. 点击右上角铅笔图标（Edit this file）。
 4. 修改对应的 `zh` 中文字段或 `en` 英文字段。
 5. 点击右上角 `Commit changes`。
-6. 等待 GitHub Pages 自动重新发布，网页就会更新。
+6. 等待 GitHub 自动把 `content.js` 生成静态正文并重新发布，网页就会更新。
 
 ## 文案位置
 
@@ -32,3 +32,4 @@
 - 在线网站不会提供排版切换，始终使用奶黄色＋照片版。
 - 私下在电脑本地打开网页时，可以用 `?theme=minimal` 预览黑白极简版。
 - `style.css`、`style-minimal.css` 和 `style-photo-cream.css` 属于排版文件，除非要改设计，否则不要修改。
+- `index.html` 和 `research.html` 中的正文由 `content.js` 自动生成，不要直接修改生成的正文区块。
