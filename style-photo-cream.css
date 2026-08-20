@@ -1,0 +1,98 @@
+:root {
+  --ink: #2b241b;
+  --muted: #7b705f;
+  --line: #e2d7c0;
+  --paper: #fbf6e9;
+  --accent: #b86b38;
+  --dark: #3d3024;
+}
+
+body {
+  background: #fbf6e9;
+}
+
+.site-header {
+  background: #fffaf0;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(250px, 0.65fr);
+  gap: 82px;
+  align-items: center;
+  max-width: none;
+  padding: 86px 0 82px;
+}
+
+.hero-copy-wrap {
+  display: block;
+}
+
+.hero-photo {
+  display: block;
+  margin: 0;
+}
+
+.hero-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border: 1px solid #d8c5a3;
+  background: #fffdf7;
+  box-shadow: 16px 16px 0 #ead9b8;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.hero-photo figcaption {
+  color: var(--muted);
+}
+
+.hero-affiliation,
+.eyebrow,
+.work-type {
+  color: var(--accent);
+}
+
+.section {
+  border-top-color: var(--line);
+}
+
+.work-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.work-card {
+  min-height: 245px;
+  border: 0;
+  border-top: 3px solid var(--accent);
+  background: #fffdf7;
+  box-shadow: 0 8px 24px rgba(73, 53, 31, 0.07);
+}
+
+.contact-card {
+  background: var(--dark);
+}
+
+.contact-card .eyebrow {
+  color: #f0bc76;
+}
+
+.button-light {
+  color: var(--dark);
+}
+
+@media (max-width: 760px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .hero-photo {
+    max-width: 360px;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+}

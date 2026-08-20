@@ -1,0 +1,82 @@
+:root {
+  --ink: #111;
+  --muted: #666;
+  --line: #d7d7d7;
+  --paper: #fff;
+  --accent: #111;
+  --dark: #111;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+  border-bottom: 2px solid #111;
+}
+
+.brand,
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", "Songti SC", serif;
+}
+
+.brand span,
+nav a,
+.hero-subtitle,
+.hero-copy,
+.section-copy,
+.page-intro > p:last-child {
+  color: #666;
+}
+
+.eyebrow,
+.work-type,
+.count {
+  color: #111;
+}
+
+.button,
+.contact-card {
+  background: #111;
+}
+
+.button:hover {
+  color: #fff;
+  background: #444;
+}
+
+.section {
+  border-top-color: #111;
+}
+
+.work-card {
+  background: #fff;
+  border-color: #111;
+}
+
+.work-card a,
+.publication summary,
+.style-switcher a {
+  color: #111;
+}
+
+.publication {
+  border-left-color: #111;
+}
+
+.contact-card .eyebrow {
+  color: #fff;
+}
+
+.button-light {
+  color: #111;
+  background: #fff;
+}
+
+.button-light:hover {
+  color: #fff;
+  background: #444;
+}
