@@ -120,7 +120,7 @@ window.siteContent = {
     },
   ],
   working: [
-    { type: "Under review", titleZh: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", titleEn: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", authorsZh: "陈昭宇", authorsEn: "Chen, Zhaoyu", statusZh: "Under review at Science & Society.", statusEn: "Under review at Science & Society.", english: true },
+    { type: "Under review", titleZh: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", titleEn: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen", statusZh: "Under review at Science & Society.", statusEn: "Under review at Science & Society.", english: true },
     { type: "Working paper", titleZh: "重访资本主义国家理论的三个传统：一项对理论史的再考察", titleEn: "Revisiting the Three Traditions of Capitalist State Theory: A Reexamination of the History of Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen" },
     { type: "Working paper", titleZh: "行业全劳动生产率加总一般方法与中国宏观生产效率再评估", titleEn: "A General Method for Aggregating Industry-level Total Labor Productivity and a Reassessment of China’s Macroeconomic Production Efficiency", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma", corresponding: true },
     { type: "Working paper", titleZh: "反思增加值：一个社会劳动核算的视角", titleEn: "Rethinking Value Added: A Social Labor Accounting Perspective", authorsZh: "马梦挺、陈昭宇", authorsEn: "Mengting Ma and Zhaoyu Chen" },
