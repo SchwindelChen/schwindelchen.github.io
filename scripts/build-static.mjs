@@ -46,5 +46,7 @@ async function writeStaticPage(filename, pathname) {
 
 await writeStaticPage("index.html", "/index.html");
 await writeStaticPage("research.html", "/research.html");
+await writeStaticPage("en/index.html", "/en/index.html");
+await writeStaticPage("en/research.html", "/en/research.html");
 
-console.log("Generated static content in index.html and research.html");
+console.log("Generated static content in the Chinese and English pages");
