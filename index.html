@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <link id="theme-style" rel="stylesheet" />
   </head>
-  <body class="is-en">
+  <body>
     <header class="site-header"><div class="container nav-wrap">
       <a class="brand" href="index.html">陈昭宇 <span>| Zhaoyu Chen</span></a>
       <nav aria-label="主导航">
@@ -36,8 +36,8 @@
     <script src="content.js"></script>
     <script>
       const languageToggle = document.getElementById("language-toggle");
-      let savedLanguage = "en";
-      try { savedLanguage = localStorage.getItem("site-language") || "en"; } catch (error) {}
+      let savedLanguage = "zh";
+      try { savedLanguage = localStorage.getItem("site-language-v2") || "zh"; } catch (error) {}
       function setLanguage(language) {
         const isEnglish = language === "en";
         document.body.classList.toggle("is-en", isEnglish);
@@ -45,7 +45,7 @@
         document.title = isEnglish ? "Zhaoyu Chen | Personal Homepage" : "陈昭宇 | Zhaoyu Chen";
         languageToggle.textContent = isEnglish ? "中" : "EN";
         languageToggle.setAttribute("aria-label", isEnglish ? "切换为中文" : "Switch to Chinese");
-        try { localStorage.setItem("site-language", language); } catch (error) {}
+        try { localStorage.setItem("site-language-v2", language); } catch (error) {}
       }
       languageToggle.addEventListener("click", () => setLanguage(document.body.classList.contains("is-en") ? "zh" : "en"));
       setLanguage(savedLanguage);
