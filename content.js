@@ -131,7 +131,17 @@ window.siteContent = {
 };
 
 const esc = (value) => String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;");
-const bi = (zh, en) => `<span class="lang-zh">${esc(zh)}</span><span class="lang-en">${esc(en)}</span>`;
+const publicationTitles = [
+  "Political Economy Quarterly",
+  "Journal of Renmin University of China",
+  "Total Factor Productivity in Marxism: Method and Algorithms",
+  "Science & Society",
+];
+const formatPublicationTitles = (value) => publicationTitles.reduce((formatted, title) => {
+  const escapedTitle = esc(title);
+  return formatted.split(escapedTitle).join(`<em>${escapedTitle}</em>`);
+}, esc(value));
+const bi = (zh, en) => `<span class="lang-zh">${formatPublicationTitles(zh)}</span><span class="lang-en">${formatPublicationTitles(en)}</span>`;
 const linkTheme = (href) => href;
 
 function renderHome() {
@@ -165,7 +175,7 @@ function renderEnglishHome() {
     </section>
     <section class="section two-column" aria-labelledby="bio-title"><div><p class="eyebrow">About me</p><h2 id="bio-title">About</h2></div><div class="section-copy">${c.about.map((item) => `<p>${esc(item.en)}</p>`).join("")}</div></section>
     <section class="section two-column" aria-labelledby="interests-title"><div><p class="eyebrow">Research interests</p><h2 id="interests-title">Research interests</h2></div><div class="section-copy"><p><strong>${esc(c.research.leadEn)}</strong></p><p>${esc(c.research.recentEn)}</p><ul class="interest-list">${c.research.topics.map((item) => `<li>${esc(item.en)}</li>`).join("")}</ul></div></section>
-    <section class="section" aria-labelledby="selected-title"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">Selected work</h2></div><a class="text-link" href="research.html">All research ↗</a></div><div class="work-grid">${c.selected.map((item) => `<article class="work-card"><p class="work-type">${esc(item.type)}</p><h3>${esc(item.en)}</h3><p>${esc(item.noteEn)}</p><a href="${linkTheme(item.href)}">View paper ↗</a></article>`).join("")}</div></section>
+    <section class="section" aria-labelledby="selected-title"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">Selected work</h2></div><a class="text-link" href="research.html">All research ↗</a></div><div class="work-grid">${c.selected.map((item) => `<article class="work-card"><p class="work-type">${esc(item.type)}</p><h3>${esc(item.en)}</h3><p>${formatPublicationTitles(item.noteEn)}</p><a href="${linkTheme(item.href)}">View paper ↗</a></article>`).join("")}</div></section>
     <section class="section two-column" id="honors" aria-labelledby="honors-title"><div><p class="eyebrow">Recognition</p><h2 id="honors-title">Selected honors</h2></div><ul class="honor-list">${c.honors.map((item) => `<li>${esc(item.en)}</li>`).join("")}</ul></section>
     <section class="section two-column" aria-labelledby="public-title"><div><p class="eyebrow">Public communication</p><h2 id="public-title">Public communication</h2></div><div class="section-copy"><p>${esc(c.publicCommunication.en)}</p></div></section>
     <section class="contact-card" id="contact" aria-labelledby="contact-title"><p class="eyebrow">Get in touch</p><h2 id="contact-title">Contact</h2><p>Email: ${esc(c.contact)}</p><a class="button button-light" href="mailto:${c.contact}">Send email</a></section>`;
@@ -173,8 +183,8 @@ function renderEnglishHome() {
 
 function renderEnglishResearch() {
   const c = window.siteContent;
-  const pub = c.published.map((item, index) => `<article class="publication"><p class="work-type">${esc(item.type)}</p><h3>${index + 1}. ${esc(item.titleEn)}</h3><p class="authors">${esc(item.authorsEn)}${item.corresponding ? "<sup>*</sup>" : ""}</p><p>${esc(item.publicationEn)}</p><details><summary>Abstract and keywords</summary><p>${esc(item.abstractEn)}</p><p class="keywords"><strong>Keywords:</strong> ${esc(item.keywordsEn)}</p></details>${item.conferenceEn ? `<details class="conference-note" open><summary>Conference presentation</summary><p>${esc(item.conferenceEn)}</p></details>` : ""}</article>`).join("");
-  const working = c.working.map((item, index) => `<article class="publication"><p class="work-type">${esc(item.type)}</p><h3>${index + 1}. ${esc(item.titleEn)}</h3><p class="authors">${esc(item.authorsEn)}${item.corresponding ? "<sup>*</sup>" : ""}</p>${item.statusEn ? `<p>${esc(item.statusEn)}</p>` : item.english ? "" : `<p class="language-note lang-en">(in Chinese)</p>`}</article>`).join("");
+  const pub = c.published.map((item, index) => `<article class="publication"><p class="work-type">${esc(item.type)}</p><h3>${index + 1}. ${esc(item.titleEn)}</h3><p class="authors">${esc(item.authorsEn)}${item.corresponding ? "<sup>*</sup>" : ""}</p><p>${formatPublicationTitles(item.publicationEn)}</p><details><summary>Abstract and keywords</summary><p>${esc(item.abstractEn)}</p><p class="keywords"><strong>Keywords:</strong> ${esc(item.keywordsEn)}</p></details>${item.conferenceEn ? `<details class="conference-note" open><summary>Conference presentation</summary><p>${esc(item.conferenceEn)}</p></details>` : ""}</article>`).join("");
+  const working = c.working.map((item, index) => `<article class="publication"><p class="work-type">${esc(item.type)}</p><h3>${index + 1}. ${esc(item.titleEn)}</h3><p class="authors">${esc(item.authorsEn)}${item.corresponding ? "<sup>*</sup>" : ""}</p>${item.statusEn ? `<p>${formatPublicationTitles(item.statusEn)}</p>` : item.english ? "" : `<p class="language-note lang-en">(in Chinese)</p>`}</article>`).join("");
   return `<section class="page-intro"><p class="eyebrow">Research</p><h1>Research</h1><p>${esc(c.research.introEn)}</p></section><section class="publication-section" id="published" aria-labelledby="published-title"><div class="section-heading"><h2 id="published-title">Published and forthcoming work</h2><span class="count">03</span></div>${pub}<p class="publication-footnote"><sup>*</sup> Corresponding author.</p></section><section class="publication-section" id="working" aria-labelledby="working-title"><div class="section-heading"><h2 id="working-title">Working papers</h2><span class="count">05</span></div>${working}<details class="conference-note working-note" open><summary>Conference presentation</summary><p>${esc(c.workingConferenceEn)}</p></details><p class="publication-footnote"><sup>*</sup> Corresponding author.</p></section>`;
 }
 
