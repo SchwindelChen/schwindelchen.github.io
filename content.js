@@ -10,7 +10,7 @@ window.siteContent = {
     affiliationZh: "北京大学经济学院 · 2026 级政治经济学方向博士研究生",
     affiliationEn: "Ph.D. student in Political Economy, School of Economics, Peking University · 2026 cohort",
     summaryZh: "我主要研究马克思主义政治经济学、中国特色社会主义政治经济学、发展政治经济学与政治经济学的计算方法。当前关注技术进步、国家与发展等议题。",
-    summaryEn: "I primarily study Marxist political economy, the Chinese economy, development political economy, and computational methods in political economy. My current interests include technological progress, the state, and development.",
+    summaryEn: "I primarily study Marxist political economy, the Chinese economy, the Political Economy of Development, and computational methods in political economy. My current interests include technological progress, the state, and development.",
   },
   about: [
     {
@@ -24,9 +24,9 @@ window.siteContent = {
   ],
   research: {
     introZh: "我的研究横跨马克思主义政治经济学、中国特色社会主义政治经济学、发展政治经济学与政治经济学的计算方法。",
-    introEn: "My research spans Marxist political economy, the Chinese economy, development political economy, and computational methods in political economy.",
+    introEn: "My research spans Marxist political economy, the Chinese economy, the Political Economy of Development, and computational methods in political economy.",
     leadZh: "主要研究方向包括马克思主义政治经济学、中国特色社会主义政治经济学、发展政治经济学与政治经济学的计算方法。",
-    leadEn: "My main research areas are Marxist political economy, the Chinese economy, development political economy, and computational methods in political economy.",
+    leadEn: "My main research areas are Marxist political economy, the Chinese economy, the Political Economy of Development, and computational methods in political economy.",
     recentZh: "近期关注以下议题：",
     recentEn: "Recent interests include:",
     topics: [
@@ -48,7 +48,7 @@ window.siteContent = {
     {
       type: "Provisionally accepted",
       zh: "政治经济学的竞争理论与“内卷式”竞争",
-      en: "The Theory of Competition in Political Economy and “Involutionary” Competition",
+      en: "Competition Theory in Political Economy and “Involutionary” Competition",
       noteZh: "与冯志轩合作，《中国人民大学学报》拟录用。",
       noteEn: "Co-authored with Zhixuan Feng; provisionally accepted by Journal of Renmin University of China (in Chinese).",
       href: "research.html#published",
@@ -92,14 +92,14 @@ window.siteContent = {
     {
       type: "Provisionally accepted",
       titleZh: "政治经济学的竞争理论与“内卷式”竞争",
-      titleEn: "The Theory of Competition in Political Economy and “Involutionary” Competition",
+      titleEn: "Competition Theory in Political Economy and “Involutionary” Competition",
       authorsZh: "冯志轩、陈昭宇",
       authorsEn: "Zhixuan Feng and Zhaoyu Chen",
       corresponding: true,
       publicationZh: "《中国人民大学学报》，拟录用。",
       publicationEn: "Provisionally accepted by Journal of Renmin University of China (in Chinese).",
       abstractZh: "“内卷式”竞争概念的提出深化了政治经济学对市场竞争的认识。为理解“内卷式”竞争，本文立足马克思主义竞争理论，借鉴演化经济学对企业行为的分析，构建由竞争的一般规定性、竞争环境和竞争主体组成的分析框架。本文认为，竞争具有促进积累与诱发过度积累的两面性，其具体结果取决于竞争、积累和利润之间能否形成良性循环。“内卷式”竞争的可能性广泛存在于现代市场经济之中，但其具体表现具有历史特殊性。当前我国部分领域出现的“内卷式”竞争，是经济发展进入新的阶段后，竞争环境变化与企业行为调整相对滞后共同作用所产生的局部竞争现象。治理“内卷式”竞争，需要继续发挥中国特色社会主义经济制度的优势，根据新的发展阶段调整相关机制，并推动企业知识和能力的持续更新。",
-      abstractEn: "The concept of “involutionary” competition has deepened political economy’s understanding of market competition. To understand this phenomenon, this paper draws on Marxist competition theory and evolutionary economics’ analysis of firm behavior to develop an analytical framework comprising the general determinations of competition, the competitive environment, and competing actors. Competition both promotes accumulation and induces overaccumulation; its specific outcome depends on whether competition, accumulation, and profit form a virtuous circle. The possibility of “involutionary” competition exists widely in modern market economies, although its concrete manifestations are historically specific. The “involutionary” competition now observed in some sectors of China is a localized phenomenon arising from changes in the competitive environment and relatively slow adjustments in firm behavior as the economy enters a new stage of development. Addressing it requires continuing to draw on the strengths of China’s socialist economic system, adjusting relevant mechanisms to the new stage of development, and promoting the continual renewal of firms’ knowledge and capabilities.",
+      abstractEn: "The introduction of the concept of “involutionary” competition has deepened the understanding of market competition in political economy. To understand “involutionary” competition, this article builds on Marxist competition theory and draws on evolutionary economics’ analysis of firm behavior to develop an analytical framework encompassing the general determinations of competition, the competitive environment, and competing firms. Competition has a dual character: it promotes accumulation but can also induce overaccumulation. Its outcomes depend on whether competition, accumulation, and profits form a virtuous circle. The potential for “involutionary” competition is widespread in modern market economies, but its manifestations are historically specific. In China, “involutionary” competition in certain sectors is a localized phenomenon arising from the interaction between changes in the competitive environment and firms’ lagging behavioral adjustments as the economy enters a new stage of development. Addressing this phenomenon requires continuing to draw on the strengths of the socialist economic system with Chinese characteristics, adapting relevant mechanisms to the new stage of development, and promoting the continuous renewal of firms’ knowledge and capabilities.",
       keywordsZh: "“内卷式”竞争；马克思主义竞争理论；资本积累；企业能力",
       keywordsEn: "“Involutionary” competition; Marxist competition theory; Capital accumulation; Firm capabilities",
       conferenceZh: "曾在第十七届中国演化经济学年会、中国经济发展研究会第 27 届年会上作论文汇报。",
@@ -122,7 +122,7 @@ window.siteContent = {
   working: [
     { type: "Working paper", titleZh: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", titleEn: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen", english: true },
     { type: "Working paper", titleZh: "重访资本主义国家理论的三个传统：一项对理论史的再考察", titleEn: "Revisiting the Three Traditions of Capitalist State Theory: A Reexamination of the History of Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen" },
-    { type: "Working paper", titleZh: "行业全劳动生产率的宏观加总与中国生产效率再评估", titleEn: "Macroeconomic Aggregation of Industry-level Total Labor Productivity and a Reassessment of China’s Production Efficiency", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma", corresponding: true },
+    { type: "Working paper", titleZh: "行业全劳动生产率的宏观加总与中国生产效率增速再评估", titleEn: "Macroeconomic Aggregation of Industry-level Total Labor Productivity and a Reassessment of Growth in China’s Production Efficiency", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma", corresponding: true },
     { type: "Working paper", titleZh: "反思增加值：一个社会劳动核算的视角", titleEn: "Rethinking Value Added: A Social Labor Accounting Perspective", authorsZh: "马梦挺、陈昭宇", authorsEn: "Mengting Ma and Zhaoyu Chen" },
     { type: "Working paper", titleZh: "政治经济学的宏观技术进步测度与增长核算：理论整合与中国经验", titleEn: "Measuring Macroeconomic Technological Progress and Growth Accounting in Political Economy: Theoretical Integration and Evidence from China", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma" },
   ],
