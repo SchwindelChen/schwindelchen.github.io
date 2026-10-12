@@ -6,11 +6,11 @@ window.siteContent = {
   person: {
     nameZh: "陈昭宇",
     nameEn: "Zhaoyu Chen",
-    heroHandle: "（Schwindel）",
+    heroHandle: "",
     affiliationZh: "北京大学经济学院 · 2026 级政治经济学方向博士研究生",
     affiliationEn: "Ph.D. student in Political Economy, School of Economics, Peking University · 2026 cohort",
-    summaryZh: "我主要研究发展政治经济学、政治经济学的计算方法与中国特色社会主义政治经济学。当前关注科技创新、全球南方发展等议题。",
-    summaryEn: "I primarily study the Political Economy of Development, Computational Methods in Political Economy, and Socialist Political Economy with Chinese Characteristics. My current interests include technological innovation and the development of Global South economies.",
+    summaryZh: "我主要研究马克思主义政治经济学、中国特色社会主义政治经济学、发展政治经济学与政治经济学的计算方法。当前关注技术进步、国家与发展等议题。",
+    summaryEn: "I primarily study Marxist political economy, the Chinese economy, development political economy, and computational methods in political economy. My current interests include technological progress, the state, and development.",
   },
   about: [
     {
@@ -23,17 +23,17 @@ window.siteContent = {
     },
   ],
   research: {
-    introZh: "我的研究横跨发展政治经济学、政治经济学的计算方法与中国特色社会主义政治经济学。",
-    introEn: "My research spans the Political Economy of Development, Computational Methods in Political Economy, and Socialist Political Economy with Chinese Characteristics.",
-    leadZh: "主要研究方向包括发展政治经济学、政治经济学的计算方法与中国特色社会主义政治经济学。",
-    leadEn: "My main research areas are the Political Economy of Development, Computational Methods in Political Economy, and Socialist Political Economy with Chinese Characteristics.",
+    introZh: "我的研究横跨马克思主义政治经济学、中国特色社会主义政治经济学、发展政治经济学与政治经济学的计算方法。",
+    introEn: "My research spans Marxist political economy, the Chinese economy, development political economy, and computational methods in political economy.",
+    leadZh: "主要研究方向包括马克思主义政治经济学、中国特色社会主义政治经济学、发展政治经济学与政治经济学的计算方法。",
+    leadEn: "My main research areas are Marxist political economy, the Chinese economy, development political economy, and computational methods in political economy.",
     recentZh: "近期关注以下议题：",
     recentEn: "Recent interests include:",
     topics: [
-      { zh: "世界体系中的国家—资本关系与全球南方发展", en: "State–capital relations in the world-system and the development of Global South economies" },
+      { zh: "马克思主义国家理论与世界体系分析", en: "Marxist state theory and world-systems analysis" },
       { zh: "技术进步、资本积累与中国经济增长", en: "Technological progress, capital accumulation, and economic growth in China" },
       { zh: "科技创新体系的政治经济学分析", en: "Political Economy of Innovation Systems" },
-      { zh: "ABM、动力系统与统计均衡等计算方法在政治经济学中的应用", en: "Applications of computational methods—including agent-based modeling (ABM), dynamical systems, and statistical equilibrium—to political economy" },
+      { zh: "ABM、统计均衡等计算方法在政治经济学中的应用", en: "Applications of computational methods such as agent-based modeling (ABM) and statistical equilibrium in political economy" },
     ],
   },
   selected: [
@@ -46,19 +46,19 @@ window.siteContent = {
       href: "research.html#published",
     },
     {
-      type: "Forthcoming",
-      zh: "政治经济学的竞争理论及其对“内卷式”竞争的启示",
-      en: "Competition Theory in Political Economy and Its Implications for Governing “Involutionary” Competition",
-      noteZh: "与冯志轩合作，发表于《中国人民大学学报》，已录用待刊。",
-      noteEn: "Co-authored with Zhixuan Feng; accepted, forthcoming in Journal of Renmin University of China (in Chinese).",
+      type: "Provisionally accepted",
+      zh: "政治经济学的竞争理论与“内卷式”竞争",
+      en: "The Theory of Competition in Political Economy and “Involutionary” Competition",
+      noteZh: "与冯志轩合作，《中国人民大学学报》拟录用。",
+      noteEn: "Co-authored with Zhixuan Feng; provisionally accepted by Journal of Renmin University of China (in Chinese).",
       href: "research.html#published",
     },
     {
       type: "Working paper",
       zh: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory",
       en: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory",
-      noteZh: "Under review at Science & Society.",
-      noteEn: "Under review at Science & Society.",
+      noteZh: "",
+      noteEn: "",
       href: "research.html#working",
     },
   ],
@@ -90,18 +90,18 @@ window.siteContent = {
       conferenceEn: "Presented a paper at the 16th China Evolutionary Economics Annual Conference and the 26th Annual Conference of the China Economic Development Research Association.",
     },
     {
-      type: "Forthcoming",
-      titleZh: "政治经济学的竞争理论及其对“内卷式”竞争的启示",
-      titleEn: "Competition Theory in Political Economy and Its Implications for Governing “Involutionary” Competition",
+      type: "Provisionally accepted",
+      titleZh: "政治经济学的竞争理论与“内卷式”竞争",
+      titleEn: "The Theory of Competition in Political Economy and “Involutionary” Competition",
       authorsZh: "冯志轩、陈昭宇",
       authorsEn: "Zhixuan Feng and Zhaoyu Chen",
       corresponding: true,
-      publicationZh: "《中国人民大学学报》，已录用，待刊。",
-      publicationEn: "Accepted, forthcoming in Journal of Renmin University of China (in Chinese).",
-      abstractZh: "“内卷式”竞争是当前我国经济亟待解决的问题。本文立足马克思主义竞争理论，借鉴演化经济学对企业行为的分析，构建由竞争的一般规定性、制度环境和竞争主体组成的分析框架。这一框架认为，市场竞争具有促进积累与诱发过度积累的两面性，其具体结果取决于竞争、积累和利润之间能否形成良性循环。随着资本积累深化和经济结构变化，原有制度体系对竞争和积累过程的支撑作用减弱，企业规模的两极化与企业能力的路径锁定又使企业难以及时适应新的竞争环境，市场竞争遂演变为“内卷式”竞争。治理“内卷式”竞争的关键在于重塑支撑竞争、积累和利润良性循环的制度体系，更好发挥国有企业在改善竞争环境中的作用，推动企业知识和能力的持续更新。",
-      abstractEn: "“Involutionary” competition is a pressing problem facing the China’s economy. Grounded in Marxist competition theory and drawing on evolutionary economics’ analysis of firm behavior, this article develops an analytical framework comprising the general determinations of competition, the institutional environment, and competing firms. The framework posits that market competition has a dual character: it promotes accumulation while also inducing overaccumulation. Its concrete outcomes depend on whether competition, accumulation, and profits can form a virtuous circle. As capital accumulation deepens and the economic structure changes, the existing institutional system becomes less capable of supporting the processes of competition and accumulation. Meanwhile, polarization in firm size and the path-dependent lock-in of firm capabilities impede firms’ timely adaptation to the new competitive environment, causing market competition to evolve into “involutionary” competition. Governing “involutionary” competition therefore requires reshaping the institutional system that sustains a virtuous circle among competition, accumulation, and profits, enabling state-owned enterprises to play a greater role in improving the competitive environment, and promoting the continuous renewal of firms’ knowledge and capabilities.",
-      keywordsZh: "“内卷式”竞争；马克思主义竞争理论；资本积累；竞争体制；企业能力",
-      keywordsEn: "“Involutionary” competition; Marxist competition theory; Capital accumulation; Competitive regime; Firm capabilities",
+      publicationZh: "《中国人民大学学报》，拟录用。",
+      publicationEn: "Provisionally accepted by Journal of Renmin University of China (in Chinese).",
+      abstractZh: "“内卷式”竞争概念的提出深化了政治经济学对市场竞争的认识。为理解“内卷式”竞争，本文立足马克思主义竞争理论，借鉴演化经济学对企业行为的分析，构建由竞争的一般规定性、竞争环境和竞争主体组成的分析框架。本文认为，竞争具有促进积累与诱发过度积累的两面性，其具体结果取决于竞争、积累和利润之间能否形成良性循环。“内卷式”竞争的可能性广泛存在于现代市场经济之中，但其具体表现具有历史特殊性。当前我国部分领域出现的“内卷式”竞争，是经济发展进入新的阶段后，竞争环境变化与企业行为调整相对滞后共同作用所产生的局部竞争现象。治理“内卷式”竞争，需要继续发挥中国特色社会主义经济制度的优势，根据新的发展阶段调整相关机制，并推动企业知识和能力的持续更新。",
+      abstractEn: "The concept of “involutionary” competition has deepened political economy’s understanding of market competition. To understand this phenomenon, this paper draws on Marxist competition theory and evolutionary economics’ analysis of firm behavior to develop an analytical framework comprising the general determinations of competition, the competitive environment, and competing actors. Competition both promotes accumulation and induces overaccumulation; its specific outcome depends on whether competition, accumulation, and profit form a virtuous circle. The possibility of “involutionary” competition exists widely in modern market economies, although its concrete manifestations are historically specific. The “involutionary” competition now observed in some sectors of China is a localized phenomenon arising from changes in the competitive environment and relatively slow adjustments in firm behavior as the economy enters a new stage of development. Addressing it requires continuing to draw on the strengths of China’s socialist economic system, adjusting relevant mechanisms to the new stage of development, and promoting the continual renewal of firms’ knowledge and capabilities.",
+      keywordsZh: "“内卷式”竞争；马克思主义竞争理论；资本积累；企业能力",
+      keywordsEn: "“Involutionary” competition; Marxist competition theory; Capital accumulation; Firm capabilities",
       conferenceZh: "曾在第十七届中国演化经济学年会、中国经济发展研究会第 27 届年会上作论文汇报。",
       conferenceEn: "Presented a paper at the 17th China Evolutionary Economics Annual Conference and the 27th Annual Conference of the China Economic Development Research Association.",
     },
@@ -120,9 +120,9 @@ window.siteContent = {
     },
   ],
   working: [
-    { type: "Under review", titleZh: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", titleEn: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen", statusZh: "Under review at Science & Society.", statusEn: "Under review at Science & Society.", english: true },
+    { type: "Working paper", titleZh: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", titleEn: "Beyond the Unitary Myth: A Critical Examination of the History of Marxist State Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen", english: true },
     { type: "Working paper", titleZh: "重访资本主义国家理论的三个传统：一项对理论史的再考察", titleEn: "Revisiting the Three Traditions of Capitalist State Theory: A Reexamination of the History of Theory", authorsZh: "陈昭宇", authorsEn: "Zhaoyu Chen" },
-    { type: "Working paper", titleZh: "行业全劳动生产率加总一般方法与中国宏观生产效率再评估", titleEn: "A General Method for Aggregating Industry-level Total Labor Productivity and a Reassessment of China’s Macroeconomic Production Efficiency", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma", corresponding: true },
+    { type: "Working paper", titleZh: "行业全劳动生产率的宏观加总与中国生产效率再评估", titleEn: "Macroeconomic Aggregation of Industry-level Total Labor Productivity and a Reassessment of China’s Production Efficiency", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma", corresponding: true },
     { type: "Working paper", titleZh: "反思增加值：一个社会劳动核算的视角", titleEn: "Rethinking Value Added: A Social Labor Accounting Perspective", authorsZh: "马梦挺、陈昭宇", authorsEn: "Mengting Ma and Zhaoyu Chen" },
     { type: "Working paper", titleZh: "政治经济学的宏观技术进步测度与增长核算：理论整合与中国经验", titleEn: "Measuring Macroeconomic Technological Progress and Growth Accounting in Political Economy: Theoretical Integration and Evidence from China", authorsZh: "陈昭宇、冯志轩、马梦挺", authorsEn: "Zhaoyu Chen, Zhixuan Feng, and Mengting Ma" },
   ],
@@ -153,7 +153,7 @@ function renderHome() {
     </section>
     <section class="section two-column" aria-labelledby="bio-title"><div><p class="eyebrow">About me</p><h2 id="bio-title"><span class="lang-zh">个人简介</span><span class="lang-en">About</span></h2></div><div class="section-copy">${c.about.map((item) => `<p>${bi(item.zh, item.en)}</p>`).join("")}</div></section>
     <section class="section two-column" aria-labelledby="interests-title"><div><p class="eyebrow">Research interests</p><h2 id="interests-title"><span class="lang-zh">研究方向</span><span class="lang-en">Research interests</span></h2></div><div class="section-copy"><p><strong>${bi(c.research.leadZh, c.research.leadEn)}</strong></p><p>${bi(c.research.recentZh, c.research.recentEn)}</p><ul class="interest-list">${c.research.topics.map((item) => `<li>${bi(item.zh, item.en)}</li>`).join("")}</ul></div></section>
-    <section class="section" aria-labelledby="selected-title"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title"><span class="lang-zh">代表性成果</span><span class="lang-en">Selected work</span></h2></div><a class="text-link" href="research.html"><span class="lang-zh">全部研究 ↗</span><span class="lang-en">All research ↗</span></a></div><div class="work-grid">${c.selected.map((item) => `<article class="work-card"><p class="work-type">${esc(item.type)}</p><h3>${bi(item.zh, item.en)}</h3><p>${bi(item.noteZh, item.noteEn)}</p><a href="${linkTheme(item.href)}"><span class="lang-zh">查看论文 ↗</span><span class="lang-en">View paper ↗</span></a></article>`).join("")}</div></section>
+    <section class="section" aria-labelledby="selected-title"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title"><span class="lang-zh">代表性成果</span><span class="lang-en">Selected work</span></h2></div><a class="text-link" href="research.html"><span class="lang-zh">全部研究 ↗</span><span class="lang-en">All research ↗</span></a></div><div class="work-grid">${c.selected.map((item) => `<article class="work-card"><p class="work-type">${esc(item.type)}</p><h3>${bi(item.zh, item.en)}</h3>${item.noteZh || item.noteEn ? `<p>${bi(item.noteZh, item.noteEn)}</p>` : ""}<a href="${linkTheme(item.href)}"><span class="lang-zh">查看论文 ↗</span><span class="lang-en">View paper ↗</span></a></article>`).join("")}</div></section>
     <section class="section two-column" id="honors" aria-labelledby="honors-title"><div><p class="eyebrow">Recognition</p><h2 id="honors-title"><span class="lang-zh">主要个人荣誉</span><span class="lang-en">Selected honors</span></h2></div><ul class="honor-list">${c.honors.map((item) => `<li>${bi(item.zh, item.en)}</li>`).join("")}</ul></section>
     <section class="section two-column" aria-labelledby="public-title"><div><p class="eyebrow">Public communication</p><h2 id="public-title"><span class="lang-zh">公共传播</span><span class="lang-en">Public communication</span></h2></div><div class="section-copy"><p>${bi(c.publicCommunication.zh, c.publicCommunication.en)}</p></div></section>
     <section class="contact-card" id="contact" aria-labelledby="contact-title"><p class="eyebrow">Get in touch</p><h2 id="contact-title"><span class="lang-zh">联系方式</span><span class="lang-en">Contact</span></h2><p><span class="lang-zh">邮箱：${esc(c.contact)}</span><span class="lang-en">Email: ${esc(c.contact)}</span></p><a class="button button-light" href="mailto:${c.contact}"><span class="lang-zh">发送邮件</span><span class="lang-en">Send email</span></a></section>`;
@@ -175,7 +175,7 @@ function renderEnglishHome() {
     </section>
     <section class="section two-column" aria-labelledby="bio-title"><div><p class="eyebrow">About me</p><h2 id="bio-title">About</h2></div><div class="section-copy">${c.about.map((item) => `<p>${esc(item.en)}</p>`).join("")}</div></section>
     <section class="section two-column" aria-labelledby="interests-title"><div><p class="eyebrow">Research interests</p><h2 id="interests-title">Research interests</h2></div><div class="section-copy"><p><strong>${esc(c.research.leadEn)}</strong></p><p>${esc(c.research.recentEn)}</p><ul class="interest-list">${c.research.topics.map((item) => `<li>${esc(item.en)}</li>`).join("")}</ul></div></section>
-    <section class="section" aria-labelledby="selected-title"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">Selected work</h2></div><a class="text-link" href="research.html">All research ↗</a></div><div class="work-grid">${c.selected.map((item) => `<article class="work-card"><p class="work-type">${esc(item.type)}</p><h3>${esc(item.en)}</h3><p>${formatPublicationTitles(item.noteEn)}</p><a href="${linkTheme(item.href)}">View paper ↗</a></article>`).join("")}</div></section>
+    <section class="section" aria-labelledby="selected-title"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">Selected work</h2></div><a class="text-link" href="research.html">All research ↗</a></div><div class="work-grid">${c.selected.map((item) => `<article class="work-card"><p class="work-type">${esc(item.type)}</p><h3>${esc(item.en)}</h3>${item.noteEn ? `<p>${formatPublicationTitles(item.noteEn)}</p>` : ""}<a href="${linkTheme(item.href)}">View paper ↗</a></article>`).join("")}</div></section>
     <section class="section two-column" id="honors" aria-labelledby="honors-title"><div><p class="eyebrow">Recognition</p><h2 id="honors-title">Selected honors</h2></div><ul class="honor-list">${c.honors.map((item) => `<li>${esc(item.en)}</li>`).join("")}</ul></section>
     <section class="section two-column" aria-labelledby="public-title"><div><p class="eyebrow">Public communication</p><h2 id="public-title">Public communication</h2></div><div class="section-copy"><p>${esc(c.publicCommunication.en)}</p></div></section>
     <section class="contact-card" id="contact" aria-labelledby="contact-title"><p class="eyebrow">Get in touch</p><h2 id="contact-title">Contact</h2><p>Email: ${esc(c.contact)}</p><a class="button button-light" href="mailto:${c.contact}">Send email</a></section>`;
